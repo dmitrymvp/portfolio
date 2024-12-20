@@ -1,0 +1,167 @@
+@keyframes arrow {
+    0% { margin-top: 5px;}
+    10% { margin-top: 4px;}
+    20% { margin-top: 3px;}
+    30% { margin-top: 2px;}
+    40% { margin-top: 1px;} 
+    50% { margin-top: 0px;}  
+    60% { margin-top: 1px;}
+    70% { margin-top: 2px;}
+    80% { margin-top: 3px;}
+    90% { margin-top: 4px;}
+    100% { margin-top: 5px;} 
+}
+
+
+@keyframes lightoff {
+    0% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    49% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    50% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    51% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    69% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    70% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    71% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    73% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    74% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    79% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    80% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    83% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    84% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    85% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    100% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+}
+
+@keyframes lightofftwo {
+    0% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    69% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    70% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    71% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    83% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    84% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    89% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    90% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    93% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    94% {
+        background-color: #000000;
+        box-shadow:none;
+    }
+    95% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    100% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+}
+
+@keyframes lightoffthree {
+    0% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    23% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    24% {
+        background-color: $main-color;
+        box-shadow: 0 0 20px 6px $main-color;
+    }
+    25% {
+        background-color: $main-color;
+        box-shadow: 0 0 20px 6px $main-color;
+    }
+    26% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    27% {
+        background-color: $main-color;
+        box-shadow: 0 0 20px 6px $main-color;
+    }
+    38% {
+        background-color: $main-color;
+        box-shadow: 0 0 20px 6px $main-color;
+    }
+    39% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+    100% { 
+        background-color: $main-color;
+        box-shadow: 0 0 20px 3px $main-color;
+    }
+}
