@@ -12,11 +12,15 @@
 
         a {
             text-decoration: none;
+            
 
             i {
+                transition: all 0.4s;
                 color: #dda95a79;
 
                 &:hover {
+  
+
                     color: $main-color;
                     text-shadow: 0 0 20px $main-color;
                 }
