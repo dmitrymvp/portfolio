@@ -18,5 +18,15 @@
     position: relative;
 }
 
+.text-main-color {
+    color: $main-color;
+    text-shadow: 0 0 20px $main-color;
+}
+
+body {
+    background-color: black;
+}
+
 @import 'blocks/promo';
-@import 'blocks/menu'
+@import 'blocks/menu';
+@import 'blocks/about';
