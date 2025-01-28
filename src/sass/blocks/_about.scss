@@ -8,9 +8,11 @@
         gap: 30px;
     }
 
-    &__subtitle {
-        margin-bottom: 40px;
+    .section-title {
+        margin-bottom: 10px;
         align-self: end;
+        justify-self: end;
+        margin-right: 70px;
         grid-column: 2;
         font-size: 36px;
         font-weight: 700;

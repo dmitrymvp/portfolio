@@ -23,6 +23,12 @@
     text-shadow: 0 0 20px $main-color;
 }
 
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #efeeee;
+}
+
 body {
     background-color: black;
 }
@@ -30,3 +36,4 @@ body {
 @import 'blocks/promo';
 @import 'blocks/menu';
 @import 'blocks/about';
+@import 'blocks/education';

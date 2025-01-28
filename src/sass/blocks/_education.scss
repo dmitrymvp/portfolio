@@ -1,0 +1,135 @@
+.education {
+    min-height: 700px;
+    padding: 100px 0 50px 50px;
+
+    .section-title {
+        text-align: center;
+    }
+
+    &__grid {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        width: 800px;
+        margin: 100px auto 0 auto;
+
+        .item {
+            position: relative;
+            // width: 400px;
+            min-height: 150px;
+            padding: 0 50px 0 50px;
+
+            &__card {
+                width: 300px;
+                min-height: 100px;
+                border-style:solid;
+                border-color: $main-color;
+                border-width: 2px;
+                border-radius: 20px;
+                padding: 15px;
+              
+                .title {
+                    font-size: 24px;
+                    line-height: 30px;
+                    font-weight: 600;
+                    color: white;
+                }
+
+                .descr {
+                    margin-top: 10px;
+                    color:white;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+            }
+
+        }
+
+        .item-left {
+            text-align: end;
+            &::before {
+                content: ('');
+                display: block;
+                width: 40px;
+                height: 40px;
+                background-color: black;
+                border-radius: 100%;
+                border-style: solid;
+                border-width: 1px;
+                border-color: white;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translateX(47%);
+
+
+            }
+
+            &::after {
+                content: ('');
+                display: block;
+                width: 1px;
+                height: calc(100% - 39px);
+                background-color: white;
+                position: absolute;
+                top: 39px;
+                right: 0;
+
+            }
+        }
+
+        .item-right {
+            &::before {
+                content: ('');
+                display: block;
+                width: 40px;
+                height: 40px;
+                background-color: black;
+                border-radius: 100%;
+                border-style: solid;
+                border-width: 1px;
+                border-color: white;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translateX(-49%);
+
+
+            }
+
+            &::after {
+                content: ('');
+                display: block;
+                width: 1px;
+                height: calc(100% - 39px);
+                background-color: white;
+                position: absolute;
+                top: 39px;
+                left: 0;
+
+            }
+        }
+
+        .item-1 {
+            grid-column: 1 / 2;
+        }
+
+        .item-2 {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        .item-3 {
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+        }
+
+        .item-4 {
+            grid-column: 2 / 3;
+            grid-row: 4 / 5;
+
+        }
+
+    }
+}
